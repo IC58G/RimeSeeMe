@@ -175,3 +175,8 @@ input[name="author"] {
     display: inline-block;
     width: 1em;
 }
+
+/* 隐藏生成代码文本框的滚动条 */
+#config_input::-webkit-scrollbar {
+    display: none;
+}
